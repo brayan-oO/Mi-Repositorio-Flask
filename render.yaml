@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-api
+    env: python
+    buildComand: ""
+    startCommand: "python app.py"
+    plan: free
