@@ -62,7 +62,7 @@ def post_personaje():
     return jsonify({"mensaje": "Persoanje creado"}), 201
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0, port=10000)
 
 #🧠 Habilidades que estás desarrollando:
 #Nivel	Habilidad
